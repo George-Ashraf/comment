@@ -1,0 +1,462 @@
+body{
+    background-color: lightblue;
+}
+
+
+.allcomment{
+margin:50px auto;
+    height:600px ;
+    background-color:white;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.allcomment .comment{
+    height: auto;
+    margin:25px auto;
+}
+ .h{
+    background-color: rgba(128, 128, 128, 0.378);
+    height: 350px;
+    width: 3px;
+    z-index: 99999;
+  position: absolute;
+  top: 135px;
+    left:470px
+  
+}
+.h2{
+    background-color: rgba(128, 128, 128, 0.378);
+    height: 206px;
+    width: 3px;
+    z-index: 99999;
+  position: absolute;
+  top: 280px;
+    left:530px 
+}
+.h3{
+    background-color: rgba(128, 128, 128, 0.378);
+    height: 50px;
+    width: 3px;
+    z-index: 99999;
+  position: absolute;
+  top: 430px;
+    left:630px 
+}
+.h4{
+    background-color: rgba(128, 128, 128, 0.378);
+    height: 30px;
+    width: 3px;
+    z-index: 99999;
+  position: absolute;
+  top: 580px;
+    left:470px
+  
+}
+.allcomment .comment img{
+    width: 50px;
+    height: 50px;
+
+}
+.allcomment .comment h1{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.allcomment .comment h1 span{
+    color: grey;
+    margin-left: 5px;
+}
+.allcomment .comment .p1{
+    margin-left: 70px;
+    position: relative;
+    bottom: 30px;
+}
+.allcomment .comment .p2{
+    margin-left: 70px;
+    position: relative;
+    bottom:30px ;
+}
+.allcomment .comment .p2 i{
+    margin: 0 5px;
+}
+.allcomment .comment .p3{
+    margin-left: 20px;
+    position: relative;
+    bottom:30px ;
+}
+.allcomment .comment .p4{
+    margin-left: 20px;
+    position: relative;
+    bottom:30px ;
+}
+/* 000000000000 */
+.allcomment .comment2{
+    height: auto;
+    padding-bottom: 5px;
+    margin:10px auto;
+    position: relative;
+    bottom: 30px;
+}
+.allcomment .comment2 img{
+    width: 50px;
+    height: 50px;
+
+}
+.allcomment .comment2 h1{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.allcomment .comment2 h1 span{
+    color: grey;
+    margin-left: 5px;
+}
+.allcomment .comment2 .p1{
+    margin-left: 70px;
+    position: relative;
+    bottom: 30px;
+}
+.allcomment .comment2 .p2{
+    margin-left: 70px;
+    position: relative;
+    bottom:30px ;
+}
+.allcomment .comment2 .p2 i{
+    margin: 0 5px;
+}
+.allcomment .comment2 .p3{
+    margin-left: 20px;
+    position: relative;
+    bottom:30px ;
+}
+.allcomment .comment2 .p4{
+    margin-left: 20px;
+    position: relative;
+    bottom:30px ;
+}
+/* 00000000 */
+.allcomment .comment3{
+    height: auto;
+    padding-bottom: 5px;
+    margin:10px auto;
+    position: relative;
+    bottom: 50px;
+    right: 25px;
+}
+.allcomment .comment3 img{
+    width: 50px;
+    height: 50px;
+
+}
+.allcomment .comment3 h1{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.allcomment .comment3 h1 span{
+    color: grey;
+    margin-left: 5px;
+}
+.allcomment .comment3 .p1{
+    margin-left: 70px;
+    position: relative;
+    bottom: 30px;
+}
+.allcomment .comment3 .p2{
+    margin-left: 70px;
+    position: relative;
+    bottom:30px ;
+}
+.allcomment .comment3 .p2 i{
+    margin: 0 5px;
+}
+.allcomment .comment3 .p3{
+    margin-left: 20px;
+    position: relative;
+    bottom:30px ;
+}
+.allcomment .comment3 .p4{
+    margin-left: 20px;
+    position: relative;
+    bottom:30px ;
+}
+/* 0000000000 */
+.allcomment .comment4{
+    height: auto;
+    padding-bottom: 5px;
+margin-left: 60px;
+    position: relative;
+    bottom: 50px;
+    right: 25px;
+
+}
+.allcomment .comment4 img{
+    width: 50px;
+    height: 50px;
+   
+
+}
+.allcomment .comment4 h1{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.allcomment .comment4 h1 span{
+    color: grey;
+    margin-left: 5px;
+}
+.allcomment .comment4 .p1{
+    margin-left: 70px;
+    position: relative;
+    bottom: 30px;
+}
+.allcomment .comment4 .p2{
+    margin-left: 70px;
+    position: relative;
+    bottom:30px ;
+}
+.allcomment .comment4 .p2 i{
+    margin: 0 5px;
+}
+.allcomment .comment4 .p3{
+    margin-left: 20px;
+    position: relative;
+    bottom:30px ;
+}
+.allcomment .comment4 .p4{
+    margin-left: 20px;
+    position: relative;
+    bottom:30px ;
+}
+@media (max-width:480px) {
+    .allcomment{
+        margin:50px auto;
+            height:auto ;
+            background-color:white;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        .allcomment .comment{
+            height: auto;
+            margin:25px auto;
+        }
+         .h{
+            background-color: rgba(128, 128, 128, 0.378);
+            height: 550px;
+            width: 3px;
+            z-index: 99999;
+          position: absolute;
+          top: 135px;
+            left:60px
+          
+        }
+        .h2{
+            background-color: rgba(128, 128, 128, 0.378);
+            height: 310px;
+            width: 3px;
+            z-index: 99999;
+          position: absolute;
+          top: 380px;
+            left:130px 
+        }
+        .h3{
+            background-color: rgba(128, 128, 128, 0.378);
+            height: 90px;
+            width: 3px;
+            z-index: 99999;
+          position: absolute;
+          top: 600px;
+            left:205px 
+        }
+        .h4{
+            background-color: rgba(128, 128, 128, 0.378);
+            height: 50px;
+            width: 3px;
+            z-index: 99999;
+          position: absolute;
+          top: 800px;
+            left:90px
+          
+        }
+        .allcomment .comment img{
+            width: 50px;
+            height: 50px;
+        
+        }
+        .allcomment .comment h1{
+            font-size: 15px;
+            margin-left: 20px;
+        }
+        .allcomment .comment h1 span{
+            color: grey;
+            margin-left: 5px;
+        }
+        .allcomment .comment .p1{
+            margin-left: 70px;
+            position: relative;
+            bottom: 30px;
+        }
+        .allcomment .comment .p2{
+            margin-left: 70px;
+            position: relative;
+            bottom:30px ;
+        }
+        .allcomment .comment .p2 i{
+            margin: 0 5px;
+        }
+        .allcomment .comment .p3{
+            margin-left: 20px;
+            position: relative;
+            bottom:30px ;
+        }
+        .allcomment .comment .p4{
+            margin-left: 20px;
+            position: relative;
+            bottom:30px ;
+        }
+        /* 000000000000 */
+        .allcomment .comment2{
+            height: auto;
+            padding-bottom: 30px;
+            margin:10px auto;
+            position: relative;
+            bottom: 30px;
+            margin-left:  70px;
+        }
+        .allcomment .comment2 img{
+            width: 50px;
+            height: 50px;
+        
+        }
+        .allcomment .comment2 h1{
+            font-size: 15px;
+            margin-left: 20px;
+        }
+        .allcomment .comment2 h1 span{
+            color: grey;
+            margin-left: 5px;
+        }
+        .allcomment .comment2 .p1{
+            margin-left: 70px;
+            margin-right: 25px;
+            position: relative;
+            bottom: 30px;
+        }
+        .allcomment .comment2 .p2{
+            margin-left: 70px;
+            position: relative;
+            bottom:30px ;
+        }
+        .allcomment .comment2 .p2 i{
+            margin: 0 5px;
+        }
+        .allcomment .comment2 .p3{
+            margin-left: 20px;
+            position: relative;
+            bottom:30px ;
+        }
+        .allcomment .comment2 .p4{
+            margin-left: 20px;
+            position: relative;
+            bottom:30px ;
+        }
+        /* 00000000 */
+        .allcomment .comment3{
+            height: auto;
+            padding-bottom: 5px;
+            margin:10px auto;
+            position: relative;
+            bottom: 70px;
+            right: 0px;
+            left: 150px;
+        }
+        .allcomment .comment3 img{
+            width: 50px;
+            height: 50px;
+        
+        }
+        .allcomment .comment3 h1{
+            font-size: 15px;
+            margin-left: 20px;
+        }
+        .allcomment .comment3 h1 span{
+            color: grey;
+            margin-left: 5px;
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 20px;
+       
+        }
+        .allcomment .comment3 .p1{
+            margin-left: 70px;
+            position: relative;
+            bottom: 30px;
+            padding-right: 100px;
+        }
+        .allcomment .comment3 .p2{
+            margin-left: 50px;
+            position: relative;
+            bottom:30px ;
+        }
+        .allcomment .comment3 .p2 i{
+            margin: 0 5px;
+        }
+        .allcomment .comment3 .p3{
+            margin-left: 20px;
+            position: relative;
+            bottom:30px ;
+            margin-right: 50px;
+        }
+        .allcomment .comment3 .p4{
+         
+            position: relative;
+            display: block;
+            bottom:0px ;
+            right:170px
+        }
+        /* 0000000000 */
+        .allcomment .comment4{
+            height: auto;
+            padding-bottom: 5px;
+        margin-left: 60px;
+            position: relative;
+            bottom: 50px;
+            right: 25px;
+        
+        }
+        .allcomment .comment4 img{
+            width: 50px;
+            height: 50px;
+           
+        
+        }
+        .allcomment .comment4 h1{
+            font-size: 15px;
+            margin-left: 20px;
+        }
+        .allcomment .comment4 h1 span{
+            color: grey;
+            margin-left: 5px;
+        }
+        .allcomment .comment4 .p1{
+            margin-left: 70px;
+            position: relative;
+            bottom: 30px;
+        }
+        .allcomment .comment4 .p2{
+            margin-left: 70px;
+            position: relative;
+            bottom:30px ;
+        }
+        .allcomment .comment4 .p2 i{
+            margin: 0 5px;
+        }
+        .allcomment .comment4 .p3{
+            margin-left: 20px;
+            position: relative;
+            bottom:30px ;
+        }
+        .allcomment .comment4 .p4{
+            margin-left: 20px;
+            position: relative;
+            bottom:30px ;
+        }
+}
